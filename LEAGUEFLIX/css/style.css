@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+/* Reset do CSS Padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+    
+    
+}
+
+html, body {
+    min-height: 100vh;             /* Altura minima */
+    background-color: #070707;     /* Cor de Fundo */
+    color: rgb(255, 255, 255);                /* Cor do Texto */
+    position: relative;
+}
+header{
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    background: transparent;
+}
+.logo{
+   
+    width: 200px;
+    border-radius: 30px;
+}
+
+
+main {
+    width: 100%;
+    padding: 3rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 4rem;        /* Tamanho da Fonte */
+    font-weight: normal;    /* Largura da Fonte */
+    letter-spacing: 0.1rem; /* Espaçamento entre as Letras */
+}
+
+ul {
+    list-style: none;       /*  Estilo da Lista */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+ul li {
+    width: 180px;
+    margin: 15px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.profile {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.profile img,
+.profile i {
+    width: 100%;
+    height: 170px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7px;
+    border: transparent solid 5px; 
+}
+
+.profile i {
+    font-size: 6rem;
+    color: rgb(240, 243, 243);
+}
+
+.profile span {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.profile:hover img,
+.profile:hover i {
+    background-color: rgba(255, 255, 255, 0);
+    border: aqua solid 5px;
+}
+
+.profile:hover span {
+    color: white;
+}
+
+button {
+    font-size: 24px;
+    padding: 10px 20px;
+    border: 2px solid rgb(10, 236, 236);
+    color: rgb(255, 253, 253);
+    background-color: #000000;
+    cursor:  pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    border: 2px solid white;
+    color: white;
+}
+@media(max-with:530px){
+    main{
+        padding: 25px 5px;
+    }
+    .container h1{
+        font-size: 3rem;
+
+    }
+    ul li {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    header{
+        position: relative;
+        text-align: center;
+    }
+}
