@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @AlilsonWolf
 - 👀 I’m interested in Front End
 - 🌱 I’m currently learning  HTML CSS JS
-- 💞️ I’m looking to collaborate on ...
+- 💞️ I’m looking to collaborate on Visual project's
 - 📫 How to reach me ...
 
 <!---
